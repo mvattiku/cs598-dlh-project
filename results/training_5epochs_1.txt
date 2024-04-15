@@ -1,0 +1,18 @@
+dataset: mimic3
+task: h
+721085
+Epoch 1 / 5:
+    Step 188 / 188, time cost: 5m11.4s, loss: 0.495757888
+    Evaluation: loss: 0.4719 --- auc: 0.8411 --- f1_score: 0.7308
+Epoch 2 / 5:
+    Step 188 / 188, time cost: 5m14.4s, loss: 0.415151539
+    Evaluation: loss: 0.4679 --- auc: 0.8463 --- f1_score: 0.7258
+Epoch 3 / 5:
+    Step 188 / 188, time cost: 5m15.2s, loss: 0.393636411
+    Evaluation: loss: 0.4702 --- auc: 0.8459 --- f1_score: 0.7293
+Epoch 4 / 5:
+    Step 188 / 188, time cost: 5m14.3s, loss: 0.391111560
+    Evaluation: loss: 0.4707 --- auc: 0.8458 --- f1_score: 0.7258
+Epoch 5 / 5:
+    Step 188 / 188, time cost: 5m13.3s, loss: 0.390707246
+    Evaluation: loss: 0.4712 --- auc: 0.8457 --- f1_score: 0.7258
