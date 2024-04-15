@@ -1,0 +1,8 @@
+# general dirs
+.DS_Store
+.vscode/
+.venv
+
+# compiled python
+__pycache__/
+*.pyc
