@@ -1,0 +1,14 @@
+# general dirs
+.DS_Store
+.vscode/
+.venv
+
+# compiled python
+__pycache__/
+*.pyc
+
+# data 
+data/downloaded
+data/mimic3/raw
+data/mimic4/raw
+data/params
