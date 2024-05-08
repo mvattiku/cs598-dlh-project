@@ -1,0 +1,70 @@
+dataset: mimic4 
+task: h
+579405
+Epoch 1 / 20:
+    Step 250 / 250, time cost: 15m21.7s, loss: 0.27622614
+    Evaluation: loss: 0.2701 --- auc: 0.9117 --- f1_score: 0.7357
+Epoch 2 / 20:
+    Step 250 / 250, time cost: 15m30.0s, loss: 0.21655150
+    Evaluation: loss: 0.2640 --- auc: 0.9118 --- f1_score: 0.7632
+Epoch 3 / 20:
+    Step 250 / 250, time cost: 15m30.0s, loss: 0.20855679
+    Evaluation: loss: 0.2638 --- auc: 0.9118 --- f1_score: 0.7632
+Epoch 4 / 20:
+    Step 250 / 250, time cost: 15m35.3s, loss: 0.20700020
+    Evaluation: loss: 0.2633 --- auc: 0.9216 --- f1_score: 0.7632
+Epoch 5 / 20:
+    Step 250 / 250, time cost: 15m29.4s, loss: 0.20699931
+    Evaluation: loss: 0.2633 --- auc: 0.9216 --- f1_score: 0.7632
+Epoch 6 / 20:
+    Step 250 / 250, time cost: 15m25.7s, loss: 0.20677155
+    Evaluation: loss: 0.2633 --- auc: 0.9215 --- f1_score: 0.7632
+Epoch 7 / 20:
+    Step 250 / 250, time cost: 15m29.6s, loss: 0.20666727
+    Evaluation: loss: 0.2634 --- auc: 0.9214 --- f1_score: 0.7632
+Epoch 8 / 20:
+    Step 250 / 250, time cost: 15m35.7s, loss: 0.20644360
+    Evaluation: loss: 0.2633 --- auc: 0.9214 --- f1_score: 0.7632
+Epoch 9 / 20:
+    Step 250 / 250, time cost: 15m27.0s, loss: 0.20622458
+    Evaluation: loss: 0.2633 --- auc: 0.9214 --- f1_score: 0.7632
+Epoch 10 / 20:
+    Step 250 / 250, time cost: 15m28.3s, loss: 0.20611829
+    Evaluation: loss: 0.2633 --- auc: 0.9214 --- f1_score: 0.7632
+Epoch 11 / 20:
+    Step 250 / 250, time cost: 15m25.7s, loss: 0.20600753
+    Evaluation: loss: 0.2633 --- auc: 0.9214 --- f1_score: 0.7632
+Epoch 12 / 20:
+    Step 250 / 250, time cost: 15m26.9s, loss: 0.20588614
+    Evaluation: loss: 0.2633 --- auc: 0.9214 --- f1_score: 0.7632
+Epoch 13 / 20:
+    Step 250 / 250, time cost: 15m27.3s, loss: 0.20566840
+    Evaluation: loss: 0.2633 --- auc: 0.9214 --- f1_score: 0.7632
+Epoch 14 / 20:
+    Step 250 / 250, time cost: 15m27.9s, loss: 0.20555697
+    Evaluation: loss: 0.2633 --- auc: 0.9213 --- f1_score: 0.7632
+Epoch 15 / 20:
+    Step 250 / 250, time cost: 15m26.6s, loss: 0.20533119
+    Evaluation: loss: 0.2633 --- auc: 0.9213 --- f1_score: 0.7632
+Epoch 16 / 20:
+    Step 250 / 250, time cost: 15m28.0s, loss: 0.20522024
+    Evaluation: loss: 0.2633 --- auc: 0.9212 --- f1_score: 0.7632
+Epoch 17 / 20:
+    Step 250 / 250, time cost: 15m28.2s, loss: 0.20511016
+    Evaluation: loss: 0.2633 --- auc: 0.9212 --- f1_score: 0.7632
+Epoch 18 / 20:
+    Step 250 / 250, time cost: 15m27.7s, loss: 0.20499505
+    Evaluation: loss: 0.2633 --- auc: 0.9213 --- f1_score: 0.7632
+Epoch 19 / 20:
+    Step 250 / 250, time cost: 15m26.9s, loss: 0.20488390
+    Evaluation: loss: 0.2633 --- auc: 0.9213 --- f1_score: 0.7632
+Epoch 20 / 20:
+    Step 250 / 250, time cost: 15m26.1s, loss: 0.20466009
+    Evaluation: loss: 0.2633 --- auc: 0.9213 --- f1_score: 0.7632
+
+Evaluating model on test data:
+    Evaluation: loss: 0.2576 --- auc: 0.9256 --- f1_score: 0.7437
+
+Test loss: 0.2501
+F1 score: 0.7445
+AUC or TopK: 0.9325

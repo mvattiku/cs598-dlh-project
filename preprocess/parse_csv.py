@@ -38,7 +38,6 @@ class EHRParser:
     def parse_admission(self):
         print('parsing the csv file of admission ...')
         filename, cols, converters = self.set_admission()
-        print(list(cols.values()))
         admissions = pd.read_csv(os.path.join(self.path, filename), usecols=list(cols.values()), converters=converters)
         admissions = self._after_read_admission(admissions, cols)
         all_patients = OrderedDict()
@@ -145,18 +144,18 @@ class EHRParser:
 class Mimic3Parser(EHRParser):
     def set_admission(self):
         filename = 'ADMISSIONS.csv'
-        cols = {self.pid_col: 'subject_id', self.adm_id_col: 'hadm_id', self.adm_time_col: 'admittime'}
+        cols = {self.pid_col: 'SUBJECT_ID', self.adm_id_col: 'HADM_ID', self.adm_time_col: 'ADMITTIME'}
         converter = {
-            'subject_id': int,
-            'hadm_id': int,
-            'admittime': lambda cell: datetime.strptime(str(cell), '%Y-%m-%d %H:%M:%S')
+            'SUBJECT_ID': int,
+            'HADM_ID': int,
+            'ADMITTIME': lambda cell: datetime.strptime(str(cell), '%Y-%m-%d %H:%M:%S')
         }
         return filename, cols, converter
 
     def set_diagnosis(self):
         filename = 'DIAGNOSES_ICD.csv'
-        cols = {self.pid_col: 'subject_id', self.adm_id_col: 'hadm_id', self.cid_col: 'icd9_code'}
-        converter = {'subject_id': int, 'hadm_id': int, 'icd9_code': Mimic3Parser.to_standard_icd9}
+        cols = {self.pid_col: 'SUBJECT_ID', self.adm_id_col: 'HADM_ID', self.cid_col: 'ICD9_CODE'}
+        converter = {'SUBJECT_ID': int, 'HADM_ID': int, 'ICD9_CODE': Mimic3Parser.to_standard_icd9}
         return filename, cols, converter
 
     @staticmethod
