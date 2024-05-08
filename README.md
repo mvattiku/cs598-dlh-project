@@ -12,7 +12,7 @@ sh inital_data_setup.sh
 ## Install python packages
 python version needed: 3.9.16
 ```bash
-`pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
 
 ## Running the model from start to end
