@@ -16,4 +16,4 @@ pip install -r requirements.txt
 ```
 
 ## Running the model from start to end
-Run the cells in the `final_team_126.ipynb`
+Run the cells in the `final_team_126.ipynb` notebook
